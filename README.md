@@ -8,6 +8,4 @@ The MATLAB code is designed for the analysis of empirical data related to the ag
 
 ## Python Code
 
-The Python code is intended for simulating the aging process of a healthy brain network, as illustrated in figure 4 of the paper arXiv:2202.01516. Each Python file in this repository can generate a different simulation result due to the inherent randomness involved.
-
-Please feel free to explore and use the code for your research or educational purposes. If you find any issues or have suggestions for improvements, we welcome contributions and collaboration.
+The Python code is intended for simulating the aging process of a healthy brain network, as illustrated in the paper arXiv:2202.01516. Each Python file in this repository can generate a  simulation result shown in fig4 of paper. Please note that due to inherent randomness, the simulation results may vary with each run.
