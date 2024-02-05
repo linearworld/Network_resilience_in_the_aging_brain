@@ -232,7 +232,7 @@ A01_list=np.array(Atrophy01_simulated_list)
 E1_list=np.array(Efficiency1_simulated_list)
 A12_list=np.array(Atrophy12_simulated_list)
 
-#Fig4d_AtoE
+##########Fig4d_AtoE########################
 x=A01_list
 y=E1_list
 plt.scatter(x,y,c='none',marker='o',edgecolor='black',label='data')
