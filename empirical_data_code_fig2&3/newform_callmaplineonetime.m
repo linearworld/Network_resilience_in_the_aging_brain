@@ -1,11 +1,4 @@
-% 函数1
-% 功能：计算两个序列的c，cshuffle，W，Wshuffle
-% 输入：两个节点的时间序列
-% cW=newform_callmaplineonetime(temp(:,m),temp(:,n));
-% temp的不同列是不同节点的时间序列
-% cW是1行4列的数组
-% 调用函数2计算c序列，调用函数3打乱两个序列
-% 由得到的c序列计算W，Wshuffle
+
 
 function cW=newform_callmaplineonetime(data1,data2)
 l=fix(length(data1)/2);
