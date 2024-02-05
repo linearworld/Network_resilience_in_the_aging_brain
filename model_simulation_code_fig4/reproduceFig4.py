@@ -179,19 +179,19 @@ print("A12: "+"mean="+str(np.mean(zscore_group2_A12))+"   std="+str(np.std(zscor
 x_values = ["Atrophy0,1", "E1", "Atrophy1,2"]
 y_values_1 = [np.mean(zscore_group1_A01), 
               np.mean(zscore_group1_E1), 
-              np.mean(zscore_group1_A12)]  # 第一条折线的y值
+              np.mean(zscore_group1_A12)]  
 y_error_1 = [np.std(zscore_group1_A01,ddof=1)/np.sqrt(len(group1_index)),
              np.std(zscore_group1_E1,ddof=1)/np.sqrt(len(group1_index)),
-             np.std(zscore_group1_A12,ddof=1)/np.sqrt(len(group1_index))]  # 第一条折线的误差
+             np.std(zscore_group1_A12,ddof=1)/np.sqrt(len(group1_index))]  
 
 y_values_2 = [np.mean(zscore_group2_A01),
               np.mean(zscore_group2_E1),
-              np.mean(zscore_group2_A12)]  # 第二条折线的y值
+              np.mean(zscore_group2_A12)] 
 y_error_2 = [np.std(zscore_group2_A01,ddof=1)/np.sqrt(len(group2_index)),
              np.std(zscore_group2_E1,ddof=1)/np.sqrt(len(group2_index)),
-             np.std(zscore_group2_A12,ddof=1)/np.sqrt(len(group2_index))]  # 第二条折线的误差
+             np.std(zscore_group2_A12,ddof=1)/np.sqrt(len(group2_index))]  
 
-# 创建一个新的图形
+
 fig, ax = plt.subplots()
 ax.errorbar(x_values, y_values_1, yerr=y_error_1, color='blue', label='Degeneration Group',capsize=4)
 ax.errorbar(x_values, y_values_2, yerr=y_error_2, color='orangered', label='Adaptation Group',capsize=4)
