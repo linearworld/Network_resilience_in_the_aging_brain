@@ -3,8 +3,8 @@
 This repository contains MATLAB and Python code for analyzing and simulating data related to the aging brain network as presented in figures 2, 3, and 4 of the paper arXiv:2202.01516.
 
 ## MATLAB Code
-In the "empirical_data_code_fig2&3" foloder, file "aging_fig2bc.m" can reproduce the figure 2(b-c) in manuscript.
-Siimilarly, the figure 3(a-c) can be reproduced by file "aging_fig3a.m", "aging_fig3b.m" and "aging_fig3c.m".
+In the "empirical_data_code_fig2&3" foloder, file "aging_fig2.m" can reproduce the figure 2(a-b) in manuscript.
+And the figure 3(a-c) can be reproduced by file "aging_fig3a.m", "aging_fig3b.m" and "aging_fig3c.m".
 
 The MATLAB code is designed for the analysis of empirical data related to the aging brain network, particularly as depicted in figures 2 and 3 of the paper arXiv:2202.01516.
 
